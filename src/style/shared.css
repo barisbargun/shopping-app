@@ -1,0 +1,85 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Delicious+Handrawn&display=swap');
+
+@import "./header.css";
+@import "./nav.css";
+@import "./products.css";
+@import "./footer.css";
+@import "./about.css";
+@import "./cart.css";
+@import "./productPage.css";
+
+
+
+:root {
+  --roboto-font: roboto;
+  --button-color: #ff9800;
+  --cart-button-color: #2196f3;
+}
+
+body,
+#root {
+  width: 100%;
+  min-height: 70vh;
+}
+
+* {
+  font-family: var(--roboto-font);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#root {
+  padding: 0 25px 25px 25px;
+}
+
+header,
+nav,
+.Main {
+  max-width: 1300px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* 
+
+BUTTON STYLE
+
+*/
+
+button.buttonCart {
+  display: flex;
+  align-items: center;
+  color: var(--cart-button-color);
+  border-color: var(--cart-button-color);
+}
+
+button.buttonCart:hover {
+  background-color: var(--cart-button-color);
+  border-color: var(--cart-button-color);
+  color: white;
+}
+
+
+.Main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@import "./responsive.css";

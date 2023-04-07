@@ -1,0 +1,794 @@
+[
+    {
+        "id": 1,
+        "title": "Apple",
+        "name": "iPhone 11 64 GB",
+        "stock": 21,
+        "price": 6500,
+        "img": "iphone11",
+        "category": "phone"
+    },
+    {
+        "id": 2,
+        "title": "Apple",
+        "name": "iPhone 12",
+        "stock": 25,
+        "price": 9100,
+        "img": "iphone12",
+        "category": "phone"
+    },
+    {
+        "id": 3,
+        "title": "Xiaomi",
+        "name": "Poco X5 Pro 5G 256 GB 8 GB Ram (Poco Türkiye Garantili)",
+        "stock": 281,
+        "price": 2800,
+        "img": "pocoX5Pro",
+        "category": "phone"
+    },
+    {
+        "id": 4,
+        "title": "Samsung",
+        "name": "Galaxy A04E 128 GB 4 GB Ram (Samsung Türkiye Garantili)",
+        "stock": 365,
+        "price": 2500,
+        "img": "galaxyA04E",
+        "category": "phone"
+    },
+    {
+        "id": 5,
+        "title": "Samsung",
+        "name": "Galaxy S22 Ultra 5G 128 GB (Samsung Türkiye Garantili)",
+        "stock": 381,
+        "price": 9100,
+        "img": "galaxyS22Ultra",
+        "category": "phone"
+    },
+    {
+        "id": 6,
+        "title": "Samsung",
+        "name": "Galaxy M13 128 GB 4 GB Ram (Samsung Türkiye Garantili)",
+        "stock": 371,
+        "price": 4500,
+        "img": "galaxyM13",
+        "category": "phone"
+    },
+    {
+        "id": 7,
+        "title": "Vivo",
+        "name": "Y35 256 GB 8 GB Ram (Vivo Türkiye Garantili)",
+        "stock": 42,
+        "price": 2200,
+        "img": "vivoY35",
+        "category": "phone"
+    },
+    {
+        "id": 8,
+        "title": "Apple",
+        "name": "iPhone 14 128 GB",
+        "stock": 21,
+        "price": 13500,
+        "img": "iphone14",
+        "category": "phone"
+    },
+    {
+        "id": 9,
+        "title": "Huawei",
+        "name": "Nova 10 Pro 256 GB 8 GB Ram (Huawei Türkiye Garantili)",
+        "stock": 5,
+        "price": 8000,
+        "img": "huaweiNova10Pro",
+        "category": "phone"
+    },
+    {
+        "id": 10,
+        "title": "Honor",
+        "name": "70 128 GB 8 GB Ram 5G (Honor Türkiye Garantili)",
+        "stock": 7,
+        "price": 5500,
+        "img": "honor70",
+        "category": "phone"
+    },
+    {
+        "id": 11,
+        "title": "Honor",
+        "name": "X9a 128 GB 8 GB RAM 5G (Honor Türkiye Garantili)",
+        "stock": 261,
+        "price": 4500,
+        "img": "honorX9a",
+        "category": "phone"
+    },
+    {
+        "id": 12,
+        "title": "Monster",
+        "name": "Abra A5 V17.2.3 Intel Core i5-11400H 16GB RAM 500GB SSD 4GB RTX3050Ti FreeDOS 15.6\" FHD 144Hz Oyun Bilgisayarı",
+        "stock": 61,
+        "price": 15500,
+        "img": "monsterAbraA5V17.2.3",
+        "category": "notebook"
+    },
+    {
+        "id": 13,
+        "title": "Msi",
+        "name": "Modern 15 A11MU-839XTR Intel Core i5 1155G7 8GB 512GB SSD Freedos 15.6\" FHD Taşınabilir Bilgisayar",
+        "stock": 55,
+        "price": 21500,
+        "img": "msiModern15",
+        "category": "notebook"
+    },
+    {
+        "id": 14,
+        "title": "Onvo",
+        "name": "OV42250 42\" 106 Ekran Uydulu Full HD Android Smart LED TV",
+        "stock": 17,
+        "price": 9500,
+        "img": "onvoOv42250",
+        "category": "tv"
+    },
+    {
+        "id": 15,
+        "title": "Sony",
+        "name": "Playstation 5 Oyun Konsolu (Eurasia garantili)",
+        "stock": 23,
+        "price": 18500,
+        "img": "ps5",
+        "category": "console"
+    },
+    {
+        "id": 16,
+        "title": "Microsoft",
+        "name": "Xbox Series S Oyun Konsolu Beyaz 512 GB ( Microsoft Türkiye Garantili )",
+        "stock": 19,
+        "price": 10500,
+        "img": "xboxSeriesS",
+        "category": "console"
+    },
+    {
+        "id": 17,
+        "title": "Apple",
+        "name": "iPhone 11 64 GB",
+        "stock": 21,
+        "price": 6500,
+        "img": "iphone11",
+        "category": "phone"
+    },
+    {
+        "id": 18,
+        "title": "Apple",
+        "name": "iPhone 12",
+        "stock": 25,
+        "price": 9100,
+        "img": "iphone12",
+        "category": "phone"
+    },
+    {
+        "id": 19,
+        "title": "Xiaomi",
+        "name": "Poco X5 Pro 5G 256 GB 8 GB Ram (Poco Türkiye Garantili)",
+        "stock": 281,
+        "price": 2800,
+        "img": "pocoX5Pro",
+        "category": "phone"
+    },
+    {
+        "id": 20,
+        "title": "Samsung",
+        "name": "Galaxy A04E 128 GB 4 GB Ram (Samsung Türkiye Garantili)",
+        "stock": 365,
+        "price": 2500,
+        "img": "galaxyA04E",
+        "category": "phone"
+    },
+    {
+        "id": 21,
+        "title": "Samsung",
+        "name": "Galaxy S22 Ultra 5G 128 GB (Samsung Türkiye Garantili)",
+        "stock": 381,
+        "price": 9100,
+        "img": "galaxyS22Ultra",
+        "category": "phone"
+    },
+    {
+        "id": 22,
+        "title": "Samsung",
+        "name": "Galaxy M13 128 GB 4 GB Ram (Samsung Türkiye Garantili)",
+        "stock": 371,
+        "price": 4500,
+        "img": "galaxyM13",
+        "category": "phone"
+    },
+    {
+        "id": 23,
+        "title": "Vivo",
+        "name": "Y35 256 GB 8 GB Ram (Vivo Türkiye Garantili)",
+        "stock": 42,
+        "price": 2200,
+        "img": "vivoY35",
+        "category": "phone"
+    },
+    {
+        "id": 24,
+        "title": "Apple",
+        "name": "iPhone 14 128 GB",
+        "stock": 21,
+        "price": 13500,
+        "img": "iphone14",
+        "category": "phone"
+    },
+    {
+        "id": 25,
+        "title": "Huawei",
+        "name": "Nova 10 Pro 256 GB 8 GB Ram (Huawei Türkiye Garantili)",
+        "stock": 5,
+        "price": 8000,
+        "img": "huaweiNova10Pro",
+        "category": "phone"
+    },
+    {
+        "id": 26,
+        "title": "Honor",
+        "name": "70 128 GB 8 GB Ram 5G (Honor Türkiye Garantili)",
+        "stock": 7,
+        "price": 5500,
+        "img": "honor70",
+        "category": "phone"
+    },
+    {
+        "id": 27,
+        "title": "Honor",
+        "name": "X9a 128 GB 8 GB RAM 5G (Honor Türkiye Garantili)",
+        "stock": 261,
+        "price": 4500,
+        "img": "honorX9a",
+        "category": "phone"
+    },
+    {
+        "id": 28,
+        "title": "Monster",
+        "name": "Abra A5 V17.2.3 Intel Core i5-11400H 16GB RAM 500GB SSD 4GB RTX3050Ti FreeDOS 15.6\" FHD 144Hz Oyun Bilgisayarı",
+        "stock": 61,
+        "price": 15500,
+        "img": "monsterAbraA5V17.2.3",
+        "category": "notebook"
+    },
+    {
+        "id": 29,
+        "title": "Msi",
+        "name": "Modern 15 A11MU-839XTR Intel Core i5 1155G7 8GB 512GB SSD Freedos 15.6\" FHD Taşınabilir Bilgisayar",
+        "stock": 55,
+        "price": 21500,
+        "img": "msiModern15",
+        "category": "notebook"
+    },
+    {
+        "id": 30,
+        "title": "Onvo",
+        "name": "OV42250 42\" 106 Ekran Uydulu Full HD Android Smart LED TV",
+        "stock": 17,
+        "price": 9500,
+        "img": "onvoOv42250",
+        "category": "tv"
+    },
+    {
+        "id": 31,
+        "title": "Sony",
+        "name": "Playstation 5 Oyun Konsolu (Eurasia garantili)",
+        "stock": 23,
+        "price": 18500,
+        "img": "ps5",
+        "category": "console"
+    },
+    {
+        "id": 32,
+        "title": "Microsoft",
+        "name": "Xbox Series S Oyun Konsolu Beyaz 512 GB ( Microsoft Türkiye Garantili )",
+        "stock": 19,
+        "price": 10500,
+        "img": "xboxSeriesS",
+        "category": "console"
+    },
+    {
+        "id": 33,
+        "title": "Apple",
+        "name": "iPhone 11 64 GB",
+        "stock": 21,
+        "price": 6500,
+        "img": "iphone11",
+        "category": "phone"
+    },
+    {
+        "id": 34,
+        "title": "Apple",
+        "name": "iPhone 12",
+        "stock": 25,
+        "price": 9100,
+        "img": "iphone12",
+        "category": "phone"
+    },
+    {
+        "id": 35,
+        "title": "Xiaomi",
+        "name": "Poco X5 Pro 5G 256 GB 8 GB Ram (Poco Türkiye Garantili)",
+        "stock": 281,
+        "price": 2800,
+        "img": "pocoX5Pro",
+        "category": "phone"
+    },
+    {
+        "id": 36,
+        "title": "Samsung",
+        "name": "Galaxy A04E 128 GB 4 GB Ram (Samsung Türkiye Garantili)",
+        "stock": 365,
+        "price": 2500,
+        "img": "galaxyA04E",
+        "category": "phone"
+    },
+    {
+        "id": 37,
+        "title": "Samsung",
+        "name": "Galaxy S22 Ultra 5G 128 GB (Samsung Türkiye Garantili)",
+        "stock": 381,
+        "price": 9100,
+        "img": "galaxyS22Ultra",
+        "category": "phone"
+    },
+    {
+        "id": 38,
+        "title": "Samsung",
+        "name": "Galaxy M13 128 GB 4 GB Ram (Samsung Türkiye Garantili)",
+        "stock": 371,
+        "price": 4500,
+        "img": "galaxyM13",
+        "category": "phone"
+    },
+    {
+        "id": 39,
+        "title": "Vivo",
+        "name": "Y35 256 GB 8 GB Ram (Vivo Türkiye Garantili)",
+        "stock": 42,
+        "price": 2200,
+        "img": "vivoY35",
+        "category": "phone"
+    },
+    {
+        "id": 40,
+        "title": "Apple",
+        "name": "iPhone 14 128 GB",
+        "stock": 21,
+        "price": 13500,
+        "img": "iphone14",
+        "category": "phone"
+    },
+    {
+        "id": 41,
+        "title": "Huawei",
+        "name": "Nova 10 Pro 256 GB 8 GB Ram (Huawei Türkiye Garantili)",
+        "stock": 5,
+        "price": 8000,
+        "img": "huaweiNova10Pro",
+        "category": "phone"
+    },
+    {
+        "id": 42,
+        "title": "Honor",
+        "name": "70 128 GB 8 GB Ram 5G (Honor Türkiye Garantili)",
+        "stock": 7,
+        "price": 5500,
+        "img": "honor70",
+        "category": "phone"
+    },
+    {
+        "id": 43,
+        "title": "Honor",
+        "name": "X9a 128 GB 8 GB RAM 5G (Honor Türkiye Garantili)",
+        "stock": 261,
+        "price": 4500,
+        "img": "honorX9a",
+        "category": "phone"
+    },
+    {
+        "id": 44,
+        "title": "Monster",
+        "name": "Abra A5 V17.2.3 Intel Core i5-11400H 16GB RAM 500GB SSD 4GB RTX3050Ti FreeDOS 15.6\" FHD 144Hz Oyun Bilgisayarı",
+        "stock": 61,
+        "price": 15500,
+        "img": "monsterAbraA5V17.2.3",
+        "category": "notebook"
+    },
+    {
+        "id": 45,
+        "title": "Msi",
+        "name": "Modern 15 A11MU-839XTR Intel Core i5 1155G7 8GB 512GB SSD Freedos 15.6\" FHD Taşınabilir Bilgisayar",
+        "stock": 55,
+        "price": 21500,
+        "img": "msiModern15",
+        "category": "notebook"
+    },
+    {
+        "id": 46,
+        "title": "Onvo",
+        "name": "OV42250 42\" 106 Ekran Uydulu Full HD Android Smart LED TV",
+        "stock": 17,
+        "price": 9500,
+        "img": "onvoOv42250",
+        "category": "tv"
+    },
+    {
+        "id": 47,
+        "title": "Sony",
+        "name": "Playstation 5 Oyun Konsolu (Eurasia garantili)",
+        "stock": 23,
+        "price": 18500,
+        "img": "ps5",
+        "category": "console"
+    },
+    {
+        "id": 48,
+        "title": "Microsoft",
+        "name": "Xbox Series S Oyun Konsolu Beyaz 512 GB ( Microsoft Türkiye Garantili )",
+        "stock": 19,
+        "price": 10500,
+        "img": "xboxSeriesS",
+        "category": "console"
+    },
+    {
+        "id": 49,
+        "title": "Apple",
+        "name": "iPhone 11 64 GB",
+        "stock": 21,
+        "price": 6500,
+        "img": "iphone11",
+        "category": "phone"
+    },
+    {
+        "id": 50,
+        "title": "Apple",
+        "name": "iPhone 12",
+        "stock": 25,
+        "price": 9100,
+        "img": "iphone12",
+        "category": "phone"
+    },
+    {
+        "id": 51,
+        "title": "Xiaomi",
+        "name": "Poco X5 Pro 5G 256 GB 8 GB Ram (Poco Türkiye Garantili)",
+        "stock": 281,
+        "price": 2800,
+        "img": "pocoX5Pro",
+        "category": "phone"
+    },
+    {
+        "id": 52,
+        "title": "Samsung",
+        "name": "Galaxy A04E 128 GB 4 GB Ram (Samsung Türkiye Garantili)",
+        "stock": 365,
+        "price": 2500,
+        "img": "galaxyA04E",
+        "category": "phone"
+    },
+    {
+        "id": 53,
+        "title": "Samsung",
+        "name": "Galaxy S22 Ultra 5G 128 GB (Samsung Türkiye Garantili)",
+        "stock": 381,
+        "price": 9100,
+        "img": "galaxyS22Ultra",
+        "category": "phone"
+    },
+    {
+        "id": 54,
+        "title": "Samsung",
+        "name": "Galaxy M13 128 GB 4 GB Ram (Samsung Türkiye Garantili)",
+        "stock": 371,
+        "price": 4500,
+        "img": "galaxyM13",
+        "category": "phone"
+    },
+    {
+        "id": 55,
+        "title": "Vivo",
+        "name": "Y35 256 GB 8 GB Ram (Vivo Türkiye Garantili)",
+        "stock": 42,
+        "price": 2200,
+        "img": "vivoY35",
+        "category": "phone"
+    },
+    {
+        "id": 56,
+        "title": "Apple",
+        "name": "iPhone 14 128 GB",
+        "stock": 21,
+        "price": 13500,
+        "img": "iphone14",
+        "category": "phone"
+    },
+    {
+        "id": 57,
+        "title": "Huawei",
+        "name": "Nova 10 Pro 256 GB 8 GB Ram (Huawei Türkiye Garantili)",
+        "stock": 5,
+        "price": 8000,
+        "img": "huaweiNova10Pro",
+        "category": "phone"
+    },
+    {
+        "id": 58,
+        "title": "Honor",
+        "name": "70 128 GB 8 GB Ram 5G (Honor Türkiye Garantili)",
+        "stock": 7,
+        "price": 5500,
+        "img": "honor70",
+        "category": "phone"
+    },
+    {
+        "id": 59,
+        "title": "Honor",
+        "name": "X9a 128 GB 8 GB RAM 5G (Honor Türkiye Garantili)",
+        "stock": 261,
+        "price": 4500,
+        "img": "honorX9a",
+        "category": "phone"
+    },
+    {
+        "id": 60,
+        "title": "Monster",
+        "name": "Abra A5 V17.2.3 Intel Core i5-11400H 16GB RAM 500GB SSD 4GB RTX3050Ti FreeDOS 15.6\" FHD 144Hz Oyun Bilgisayarı",
+        "stock": 61,
+        "price": 15500,
+        "img": "monsterAbraA5V17.2.3",
+        "category": "notebook"
+    },
+    {
+        "id": 61,
+        "title": "Msi",
+        "name": "Modern 15 A11MU-839XTR Intel Core i5 1155G7 8GB 512GB SSD Freedos 15.6\" FHD Taşınabilir Bilgisayar",
+        "stock": 55,
+        "price": 21500,
+        "img": "msiModern15",
+        "category": "notebook"
+    },
+    {
+        "id": 62,
+        "title": "Onvo",
+        "name": "OV42250 42\" 106 Ekran Uydulu Full HD Android Smart LED TV",
+        "stock": 17,
+        "price": 9500,
+        "img": "onvoOv42250",
+        "category": "tv"
+    },
+    {
+        "id": 63,
+        "title": "Sony",
+        "name": "Playstation 5 Oyun Konsolu (Eurasia garantili)",
+        "stock": 23,
+        "price": 18500,
+        "img": "ps5",
+        "category": "console"
+    },
+    {
+        "id": 64,
+        "title": "Microsoft",
+        "name": "Xbox Series S Oyun Konsolu Beyaz 512 GB ( Microsoft Türkiye Garantili )",
+        "stock": 19,
+        "price": 10500,
+        "img": "xboxSeriesS",
+        "category": "console"
+    },
+    {
+        "id": 65,
+        "title": "Apple",
+        "name": "iPhone 12",
+        "stock": 25,
+        "price": 9100,
+        "img": "iphone12",
+        "category": "phone"
+    },
+    {
+        "id": 66,
+        "title": "Xiaomi",
+        "name": "Poco X5 Pro 5G 256 GB 8 GB Ram (Poco Türkiye Garantili)",
+        "stock": 281,
+        "price": 2800,
+        "img": "pocoX5Pro",
+        "category": "phone"
+    },
+    {
+        "id": 67,
+        "title": "Samsung",
+        "name": "Galaxy A04E 128 GB 4 GB Ram (Samsung Türkiye Garantili)",
+        "stock": 365,
+        "price": 2500,
+        "img": "galaxyA04E",
+        "category": "phone"
+    },
+    {
+        "id": 68,
+        "title": "Samsung",
+        "name": "Galaxy S22 Ultra 5G 128 GB (Samsung Türkiye Garantili)",
+        "stock": 381,
+        "price": 9100,
+        "img": "galaxyS22Ultra",
+        "category": "phone"
+    },
+    {
+        "id": 69,
+        "title": "Samsung",
+        "name": "Galaxy M13 128 GB 4 GB Ram (Samsung Türkiye Garantili)",
+        "stock": 371,
+        "price": 4500,
+        "img": "galaxyM13",
+        "category": "phone"
+    },
+    {
+        "id": 70,
+        "title": "Vivo",
+        "name": "Y35 256 GB 8 GB Ram (Vivo Türkiye Garantili)",
+        "stock": 42,
+        "price": 2200,
+        "img": "vivoY35",
+        "category": "phone"
+    },
+    {
+        "id": 71,
+        "title": "Apple",
+        "name": "iPhone 14 128 GB",
+        "stock": 21,
+        "price": 13500,
+        "img": "iphone14",
+        "category": "phone"
+    },
+    {
+        "id": 72,
+        "title": "Huawei",
+        "name": "Nova 10 Pro 256 GB 8 GB Ram (Huawei Türkiye Garantili)",
+        "stock": 5,
+        "price": 8000,
+        "img": "huaweiNova10Pro",
+        "category": "phone"
+    },
+    {
+        "id": 73,
+        "title": "Honor",
+        "name": "70 128 GB 8 GB Ram 5G (Honor Türkiye Garantili)",
+        "stock": 7,
+        "price": 5500,
+        "img": "honor70",
+        "category": "phone"
+    },
+    {
+        "id": 74,
+        "title": "Honor",
+        "name": "X9a 128 GB 8 GB RAM 5G (Honor Türkiye Garantili)",
+        "stock": 261,
+        "price": 4500,
+        "img": "honorX9a",
+        "category": "phone"
+    },
+    {
+        "id": 75,
+        "title": "Monster",
+        "name": "Abra A5 V17.2.3 Intel Core i5-11400H 16GB RAM 500GB SSD 4GB RTX3050Ti FreeDOS 15.6\" FHD 144Hz Oyun Bilgisayarı",
+        "stock": 61,
+        "price": 15500,
+        "img": "monsterAbraA5V17.2.3",
+        "category": "notebook"
+    },
+    {
+        "id": 76,
+        "title": "Msi",
+        "name": "Modern 15 A11MU-839XTR Intel Core i5 1155G7 8GB 512GB SSD Freedos 15.6\" FHD Taşınabilir Bilgisayar",
+        "stock": 55,
+        "price": 21500,
+        "img": "msiModern15",
+        "category": "notebook"
+    },
+    {
+        "id": 77,
+        "title": "Onvo",
+        "name": "OV42250 42\" 106 Ekran Uydulu Full HD Android Smart LED TV",
+        "stock": 17,
+        "price": 9500,
+        "img": "onvoOv42250",
+        "category": "tv"
+    },
+    {
+        "id": 78,
+        "title": "Sony",
+        "name": "Playstation 5 Oyun Konsolu (Eurasia garantili)",
+        "stock": 23,
+        "price": 18500,
+        "img": "ps5",
+        "category": "console"
+    },
+    {
+        "id": 79,
+        "title": "Microsoft",
+        "name": "Xbox Series S Oyun Konsolu Beyaz 512 GB ( Microsoft Türkiye Garantili )",
+        "stock": 19,
+        "price": 10500,
+        "img": "xboxSeriesS",
+        "category": "console"
+    },
+    {
+        "id": 80,
+        "title": "Honor",
+        "name": "X9a 128 GB 8 GB RAM 5G (Honor Türkiye Garantili)",
+        "stock": 261,
+        "price": 4500,
+        "img": "honorX9a",
+        "category": "phone"
+    },
+    {
+        "id": 81,
+        "title": "Honor",
+        "name": "X9a 128 GB 8 GB RAM 5G (Honor Türkiye Garantili)",
+        "stock": 261,
+        "price": 4500,
+        "img": "honorX9a",
+        "category": "phone"
+    },
+    {
+        "id": 82,
+        "title": "Msi",
+        "name": "Modern 15 A11MU-839XTR Intel Core i5 1155G7 8GB 512GB SSD Freedos 15.6\" FHD Taşınabilir Bilgisayar",
+        "stock": 55,
+        "price": 21500,
+        "img": "msiModern15",
+        "category": "notebook"
+    },
+    {
+        "id":83,
+        "title": "Msi",
+        "name": "Modern 15 A11MU-839XTR Intel Core i5 1155G7 8GB 512GB SSD Freedos 15.6\" FHD Taşınabilir Bilgisayar",
+        "stock": 55,
+        "price": 21500,
+        "img": "msiModern15",
+        "category": "notebook"
+    },
+    {
+        "id": 84,
+        "title": "Msi",
+        "name": "Modern 15 A11MU-839XTR Intel Core i5 1155G7 8GB 512GB SSD Freedos 15.6\" FHD Taşınabilir Bilgisayar",
+        "stock": 55,
+        "price": 21500,
+        "img": "msiModern15",
+        "category": "notebook"
+    },
+    {
+        "id": 85,
+        "title": "Msi",
+        "name": "Modern 15 A11MU-839XTR Intel Core i5 1155G7 8GB 512GB SSD Freedos 15.6\" FHD Taşınabilir Bilgisayar",
+        "stock": 55,
+        "price": 21500,
+        "img": "msiModern15",
+        "category": "notebook"
+    },
+    {
+        "id": 86,
+        "title": "Msi",
+        "name": "Modern 15 A11MU-839XTR Intel Core i5 1155G7 8GB 512GB SSD Freedos 15.6\" FHD Taşınabilir Bilgisayar",
+        "stock": 55,
+        "price": 21500,
+        "img": "msiModern15",
+        "category": "notebook"
+    },
+    {
+        "id": 87,
+        "title": "Msi",
+        "name": "Modern 15 A11MU-839XTR Intel Core i5 1155G7 8GB 512GB SSD Freedos 15.6\" FHD Taşınabilir Bilgisayar",
+        "stock": 55,
+        "price": 21500,
+        "img": "msiModern15",
+        "category": "notebook"
+    },
+    {
+        "id": 88,
+        "title": "Msi",
+        "name": "Modern 15 A11MU-839XTR Intel Core i5 1155G7 8GB 512GB SSD Freedos 15.6\" FHD Taşınabilir Bilgisayar",
+        "stock": 55,
+        "price": 21500,
+        "img": "msiModern15",
+        "category": "notebook"
+    }
+]

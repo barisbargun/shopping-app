@@ -1,0 +1,76 @@
+.ProductPage {
+    padding-bottom: 50px;
+}
+
+.ProductPage .container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: -25px;
+    height: 650px;
+}
+
+.ProductPage .productPhoto,
+.ProductPage .productInfo {
+    width: 600px;
+    min-width: 50%;
+    height: 100%;
+}
+
+.ProductPage .productPhoto {
+    box-shadow: 10px 10px 25px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProductPage .productPhoto img {
+
+    width: 100%;
+    transform: scale(0.7);
+}
+
+.ProductPage .productInfo {
+    background-color: #303f9f;
+    padding: 50px;
+    margin-left: 25px;
+    color: white;
+    overflow-y: auto;
+
+}
+
+.ProductPage .productInfo .category {
+    font-size: 0.8rem;
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+    display: inline;
+}
+
+.ProductPage .productInfo .title {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 0.9rem;
+    margin: 20px 0px;
+    max-width: 400px;
+}
+
+.ProductPage .productInfo .brand {
+    display: inline;
+    color: white;
+    font-size: 1.3rem;
+    margin-right: 7px;
+}
+
+.ProductPage .productInfo .price {
+    font-size: 1.4rem;
+}
+
+.ProductPage .productInfo .stock {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.593);
+}
+
+.ProductPage .productInfo button {
+    margin: 15px 0 5px 0;
+}

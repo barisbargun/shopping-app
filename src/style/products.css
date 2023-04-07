@@ -1,0 +1,110 @@
+.Products {
+    width: 100%;
+}
+
+.Products ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
+}
+
+.Products ul li {
+    margin: 0px 10px 30px 10px;
+    width: calc(25% - 20px);
+    height: 380px;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+    transition: border-color 0.3s, scale 0.3s;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:881px){
+    .Products ul li:hover {
+        border-color: #bdbdbd;
+        box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.25);
+        scale: 1.05;
+        z-index: 30;
+    }
+}
+
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 100%;
+}
+
+.productCard a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 85%;
+    width: 100%;
+}
+
+.productCard .productImage {
+    height: 50%;
+
+    max-width: 100%;
+
+}
+
+.productCard .productName {
+    margin-top: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+
+}
+
+.productCard .productName .brand {
+    font-weight: 500;
+    color: rgb(125, 125, 125);
+
+}
+
+.productCard .price {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.productCard .buttonCart {
+    opacity: 0;
+    transition: opacity 0.2s;
+    width: 95%;
+}
+
+.Products .productLength {
+    display: block;
+    opacity: 0.3;
+    text-align: end;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+
+.Products .productNotFounded {
+    margin: 200px 0px 200px 0px;
+    text-align: center;
+    opacity: 0.3;
+}
+
+
+.Products .PageNumbers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

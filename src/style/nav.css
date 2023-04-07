@@ -1,0 +1,60 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+
+}
+
+.Nav .ButtonGroup {
+    flex-wrap: wrap;
+}
+
+.Nav::after {
+    position: absolute;
+    content: " ";
+    width: 80%;
+    height: 1px;
+    background-color: var(--button-color);
+    bottom: -10px;
+    left: 0;
+}
+
+.Nav button {
+
+    color: var(--button-color);
+    background-color: white;
+    border-color: var(--button-color);
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.Nav Button:hover {
+    background-color: var(--button-color);
+    color: white;
+    border-color: var(--button-color);
+}
+
+.Nav .buttonCart p {
+    margin-right: 5px;
+}
+
+.Nav .focusedButton {
+
+    background-color: var(--button-color);
+    color: white;
+}
+
+.Nav .focusedCartButton {
+
+    background-color: var(--cart-button-color);
+    color: white;
+}

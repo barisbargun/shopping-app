@@ -1,0 +1,45 @@
+.aboutSection {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: -25px;
+  }
+  
+  .aboutPhoto img {
+    min-width: 300px;
+    max-width: 100%;
+    max-height: 500px;
+    transform: scale(0.8);
+    transform-origin: top center;
+  }
+  
+  .aboutSection .text {
+    max-width: 40%;
+  }
+  
+  .aboutSection .text h3 {
+    position: relative;
+  }
+  
+  .aboutSection .text h3::after {
+    content: " ";
+    width: 50%;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border-radius: 1px;
+  
+  }
+  
+  .aboutSection .description {
+    margin: 30px 0px 20px 0px;
+    width: 80%;
+  }
+  
+  .aboutSection .text .socialMediaIcons .icons {
+    width: 25px;
+    height: 25px;
+    color: black;
+  }
