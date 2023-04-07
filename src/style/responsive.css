@@ -195,6 +195,25 @@
     .aboutSection .text h3 {
         margin-left: 10px;
     }
+
+    .ProductPage .container {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .ProductPage .productPhoto, .ProductPage .productInfo{
+        width: 90%;
+        min-width: 280px;
+    }
+
+    .ProductPage .productInfo{
+        margin:0;
+        margin-top:15px;
+    }
+
+    .ProductPage .productPhoto img{
+        scale: 0.7;
+    }
     
 }
 
